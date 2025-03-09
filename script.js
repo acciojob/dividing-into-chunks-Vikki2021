@@ -2,10 +2,6 @@ const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 
 const divide = (arr, n) => {
   // Write your code here
-	const arr = [1, 2, 3, 4, 1, 0, 2, 2];
-
-const divide = (arr, n) => {
-  // Write your code here
 	let ans=[],temp=[]
 	let i=0,sum=0
 	for(let j=0;j<arr.length;j++)
@@ -38,10 +34,6 @@ const divide = (arr, n) => {
 	if(temp.length>0)ans.push(temp)
 	return ans
 	
-};
-
-const n = prompt("Enter n: ");
-alert(JSON.stringify(divide(arr, n)));
 };
 
 const n = prompt("Enter n: ");
